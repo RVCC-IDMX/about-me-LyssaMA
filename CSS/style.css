@@ -1,0 +1,27 @@
+body {
+    font-family:"Anton";
+    background-color:#40c594; 
+    color:#830578;
+
+        }
+
+        h1, h2,h3,h4,h5,h6 {
+            font-family:"Asap Condensed";
+            font-size: 48pt;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;   
+        }
+
+        #hero, footer {
+            border: 2px solid #280d88; 
+            background-color:#f0ba32;
+            text-align: center;
+            padding: 22px;
+        }
+
+        #hero img {
+            width: 275px;
+        :

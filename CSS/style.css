@@ -25,3 +25,32 @@ body {
         #hero img {
             width: 275px;
         }
+
+        ul {
+            list-style-type: georgian;
+            padding: 8px;
+          }
+          
+          li {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            
+          }
+          
+        
+                 
+          
+          
+          
+          
+          
+          
+          
+
+
+

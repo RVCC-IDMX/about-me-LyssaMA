@@ -1,55 +1,82 @@
 body {
-    font-family:"Anton";
-    background-color:#40c594; 
-    color:#830578;
+    font-family: "Anton";
+    background-color: #40c594;
+    color: #830578;
 
-        }
+}
 
-        h1, h2,h3,h4,h5,h6 {
-            font-family:"Asap Condensed";
-            font-size: 48pt;
-            text-align: center;
-        }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Asap Condensed";
+    font-size: 48pt;
+    text-align: center;
+}
 
-        header {
-            text-align: center;   
-        }
+header {
+    text-align: center;
+}
 
-        #hero, footer {
-            border: 2px solid #280d88; 
-            background-color:#f0ba32;
-            text-align: center;
-            padding: 22px;
-        }
+#hero,
+footer {
+    border: 2px solid #280d88;
+    background-color: #f0ba32;
+    text-align: center;
+    padding: 22px;
+}
 
-        #hero img {
-            width: 275px;
-        }
+#hero img {
+    width: 275px;
+}
 
-        ul {
-            list-style-type: georgian;
-            padding: 8px;
-          }
-          
-          li {
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            color: #c41374;
-            text-align: center;
-            background-color: #0ef0f8;
-            border: 1px solid #99138e;
-            padding: 10px;
-          }
-          
-        
-                 
-          
-          
-          
-          
-          
-          
-          
+ul {
+    padding: 8px;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #c41374;
+    text-align: center;
+    background-color: #0ef0f8;
+    border: 1px solid #99138e;
+    padding: 10px;
+}
+
+/* Hobbies */
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hobbies h2 {
+    margin: .5ex;
+}
+
+@media screen and (min-width: 60em) {
+
+    /* Gallery */
+    #gallery {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figure {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
 
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 
+}

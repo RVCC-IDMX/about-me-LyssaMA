@@ -30,6 +30,7 @@ footer {
 
 #hero img {
     width: 275px;
+    max-width: 100%;
 }
 
 ul {

@@ -57,6 +57,7 @@ li {
 #hobbies h2 {
     margin: .1em;
 }
+
 /*Drop Caps*/
 #lit p:first-child:first-letter {
     color: #99138e;
@@ -117,6 +118,49 @@ li {
 
     figure {
         display: block;
-}
     }
 
+}
+
+/* Video Style */
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#video iframe {
+    max-width: 100%;
+}
+
+#video p {
+    font-size: 32px;
+    color: #280d88;
+}
+
+/* Larger Screen Size */
+@media screen and (min-width: 100em) {
+    #video {
+        max-width: 100%;
+    }
+}
+
+/* Small Scree Size (iPhones) */
+@media screen and (max-width: 30em) {
+    #hero img,
+    #gallery img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Larger Screen (Laptops) */
+@media screen and (min-width: 30em) {
+    #hero img,
+    #gallery img {
+        max-width: 100%;
+        height: auto;
+    }
+}

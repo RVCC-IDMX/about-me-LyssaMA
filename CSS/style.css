@@ -163,4 +163,11 @@ li {
         max-width: 100%;
         height: auto;
     }
+
 }
+
+/*Contact Form*/
+#formElements {
+display: grid;
+}
+

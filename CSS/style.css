@@ -1,12 +1,32 @@
 body {
+
+
     font-family: "Anton";
     background-color: #40c594;
-    color: #830578;
+    color: #280d88;
 
 }
 
-h1,
-h2,
+h1 {
+    font-family: "Asap Condensed";
+    font-size: 65pt;
+    text-align: center;
+    color: #99138e;
+}
+
+h2 {
+font-size: 36pt;
+text-align: center;
+
+}
+p {
+    font-size: 16pt;
+    color: #99138e;
+
+}
+
+
+h1 h2,
 h3,
 h4,
 h5,
@@ -20,17 +40,20 @@ header {
     text-align: center;
 }
 
+
 #hero,
 footer {
-    border: 2px solid #280d88;
+    border: 4px solid #280d88;
     background-color: #f0ba32;
     text-align: center;
-    padding: 22px;
+    padding: 10px;
+    align-items: center;
 }
 
 #hero img {
     width: 275px;
     max-width: 100%;
+    padding-top: 20px;
 }
 
 ul {
@@ -38,13 +61,12 @@ ul {
 }
 
 li {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: #c41374;
+    font-family: "Anton";
+    font-size: 14px;
+    color: #99138e;
     text-align: center;
-    background-color: #0ef0f8;
-    border: 1px solid #99138e;
-    padding: 10px;
+    background-color: #f0ba32;
+    border: 2px solid #280d88;
 }
 
 /* Hobbies */
@@ -57,6 +79,7 @@ li {
 #hobbies h2 {
     margin: .1em;
 }
+
 
 /*Drop Caps*/
 #lit p:first-child:first-letter {
@@ -94,16 +117,19 @@ li {
     }
 
     /* Literature*/
-    #lit {
-        max-width: 100%;
-        columns: 20rem;
-    }
+
+}
+
+#lit {
+    max-width: 100%;
+    columns: 20rem;
 }
 
 /*Large Screen Size*/
 @media screen and (min-width: 100em) {
 
     #gallery {
+        align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -149,6 +175,7 @@ li {
 
 /* Small Scree Size (iPhones) */
 @media screen and (max-width: 30em) {
+
     #hero img,
     #gallery img {
         max-width: 100%;
@@ -158,6 +185,7 @@ li {
 
 /* Larger Screen (Laptops) */
 @media screen and (min-width: 30em) {
+
     #hero img,
     #gallery img {
         max-width: 100%;
@@ -168,6 +196,52 @@ li {
 
 /*Contact Form*/
 #formElements {
-display: grid;
+    display: grid;
+    row-gap: .5em;
 }
 
+contact {
+    font-family: "Asap Condensed";
+    padding: 1rem;
+    max: width 600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 2px solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #280d88;
+    color: #f0ba32;
+    padding: .5em;
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+    padding: .5rem;
+    font-size: 1rem;
+    border: 2px #f0ba32;
+}
+
+#contact ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+    font-family: Arial, sans-serif;
+    background-color: #280d88;
+    color: #f0ba32;
+    border: 2px solid;
+    max-width: 400px;
+    justify-self: center;
+
+}

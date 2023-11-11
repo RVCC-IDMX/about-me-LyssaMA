@@ -136,6 +136,7 @@ ul {
         align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
 
     }
 
@@ -221,6 +222,7 @@ fieldset {
 }
 
 legend {
+    font-family: "Asap Condensed";
     background-color: #280d88;
     color: #f0ba32;
     padding: .5em;
@@ -228,6 +230,7 @@ legend {
 
 #contact input,
 #contact textarea,
+#contact select,
 #contact button {
     padding: .5rem;
     font-size: 1rem;
@@ -236,7 +239,7 @@ legend {
 
 #contact ul {
     list-style: none;
-    padding-left: 0px;
+    padding: 0px;
 }
 
 #contact li {
@@ -244,11 +247,12 @@ legend {
 }
 
 #contact button {
-    font-family: Arial, sans-serif;
+    font-family: "Asap Condensed";
     background-color: #280d88;
     color: #f0ba32;
     border: 2px solid;
     max-width: 400px;
+    width: 50%;
     justify-self: center;
 
 }

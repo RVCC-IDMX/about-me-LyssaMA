@@ -60,7 +60,7 @@ ul {
     padding: 8px;
 }
 
-li {
+#hobbies li {
     font-family: "Anton";
     font-size: 28px;
     color: #99138e;
@@ -207,10 +207,10 @@ li {
     margin: 10px 0;
 }
 
-contact {
+#contact {
     font-family: "Asap Condensed";
     padding: 1rem;
-    max: width 600px;
+    max-width: 600px;
     margin: 2rem auto;
 }
 

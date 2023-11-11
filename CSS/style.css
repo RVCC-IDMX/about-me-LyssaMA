@@ -56,6 +56,10 @@ footer {
     padding-top: 20px;
 }
 
+#hero p {
+    color: #280d88;
+}
+
 ul {
     padding: 8px;
 }
@@ -151,6 +155,7 @@ ul {
     figure {
         display: block;
     }
+
 }
 
 /* Video Style */
@@ -168,6 +173,11 @@ ul {
 
 #video p {
     font-size: 32px;
+    color: #99138e;
+}
+
+
+#gallery figcaption {
     color: #99138e;
 }
 

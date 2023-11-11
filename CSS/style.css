@@ -4,6 +4,7 @@ body {
     font-family: "Anton";
     background-color: #40c594;
     color: #280d88;
+    font-size: 20pt;
 
 }
 
@@ -40,7 +41,6 @@ header {
     text-align: center;
 }
 
-
 #hero,
 footer {
     border: 4px solid #280d88;
@@ -62,15 +62,18 @@ ul {
 
 li {
     font-family: "Anton";
-    font-size: 14px;
+    font-size: 28px;
     color: #99138e;
     text-align: center;
     background-color: #f0ba32;
     border: 2px solid #280d88;
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
 }
 
 /* Hobbies */
-#hobbies {
+#hobbies ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +82,6 @@ li {
 #hobbies h2 {
     margin: .1em;
 }
-
 
 /*Drop Caps*/
 #lit p:first-child:first-letter {
@@ -110,11 +112,13 @@ li {
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+        text-align: center;
     }
 
     figure img {
         width: 100%;
     }
+
 
     /* Literature*/
 
@@ -132,6 +136,7 @@ li {
         align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+
     }
 
     hr {
@@ -145,7 +150,6 @@ li {
     figure {
         display: block;
     }
-
 }
 
 /* Video Style */
@@ -163,7 +167,7 @@ li {
 
 #video p {
     font-size: 32px;
-    color: #280d88;
+    color: #99138e;
 }
 
 /* Larger Screen Size */
@@ -198,6 +202,9 @@ li {
 #formElements {
     display: grid;
     row-gap: .5em;
+    border: 2px #f0ba32;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 contact {

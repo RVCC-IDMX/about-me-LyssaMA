@@ -20,6 +20,16 @@ font-size: 36pt;
 text-align: center;
 
 }
+
+#bio
+
+h2 {
+ font-family: "Anton";
+ font-size: 30pt;
+ text-align: center;
+ color: #280d88;
+}
+
 p {
     font-size: 16pt;
     color: #99138e;

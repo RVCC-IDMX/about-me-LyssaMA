@@ -25,6 +25,7 @@ main {
 
 .navbar {
     background-color: #99138e;
+    color: #40c594;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -61,16 +62,24 @@ main {
 
 .navbar-links a {
     color: #280d88;
-    font-size: 1 rem;
+    font-size: 2 rem;
     padding: 1rem 1.25rem;
     text-decoration: none;
     display: inline-block;
 }
+
 /*  
  style all a tags in header 
  and then on hover
 */
-
+.navbar-links a:hover,
+.navbar-links a:focus {
+    filter: invert(1);
+    color: #40c594;
+    background-color: #682727;
+    border-radius: 10px;
+    outline: #40c594;
+}
 
 
 

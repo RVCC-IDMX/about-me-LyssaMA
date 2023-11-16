@@ -52,6 +52,20 @@ main {
 /* navigation list */
 
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em;
+    letter-spacing: 1px;
+}
+
+.navbar-links a {
+    color: #280d88;
+    font-size: 1 rem;
+    padding: 1rem 1.25rem;
+    text-decoration: none;
+    display: inline-block;
+}
 /*  
  style all a tags in header 
  and then on hover

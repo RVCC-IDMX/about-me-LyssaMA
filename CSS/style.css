@@ -127,6 +127,11 @@ ul {
     border-bottom-right-radius: 0.2em;
 }
 
+figcaption {
+    border: 4px solid;
+    border-radius: 8px;
+}
+
 /*Tablet Size*/
 @media screen and (min-width: 60em) {
     figure {
@@ -141,8 +146,6 @@ ul {
         font-size: 2rem;
         margin-left: 1rem;
         text-align: center;
-        border: 4px solid;
-        border-radius: 8px;
     }
 
     figure img {

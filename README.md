@@ -6,25 +6,25 @@ Lyssa Anderson
 
 <!-- Site Description-->
 
-Logo
+# Logo
 
-Navigation bar
+# Navigation bar
 
-Bio
+# Bio
 
-Hobbies
+# Hobbies
 
-Gallery
+# Gallery
 
 
 
-Website 
+# Website 
 
-Video
+# Video
 
-Contact
+# Contact
 
-Footer
+# Footer
 
 
 <!--Color Scheme-->
@@ -38,13 +38,13 @@ Background
 
 <!--Citation-->
 
-Logo
+# Logo, 
+# Images, 
+# Video 
+content owned by my company True Poet LLC
 
-Images
+# Blog 
 
-Blog
-
-Video
 
 <!--License-->
 

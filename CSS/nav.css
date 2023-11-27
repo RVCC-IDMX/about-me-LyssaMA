@@ -127,3 +127,7 @@ such that no text wraps
         display: block;
     }
 }
+
+* {
+    border:1px solid black;
+}

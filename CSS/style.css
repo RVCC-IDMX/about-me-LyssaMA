@@ -211,6 +211,7 @@ p a {
 }
 
 #video p {
+    font-family: "Anton";
     font-size: 28px;
     color: #f0ba32;
     background-color: #27683B;
@@ -226,6 +227,8 @@ p a {
     background-color: #27683b;
     text-align: center;
     font-size: 28pt;
+    font-family: "Anton";
+    
 }
 
 #gallery img {

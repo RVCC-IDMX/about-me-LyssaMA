@@ -25,7 +25,7 @@ main {
 
 .navbar {
     background-color: #27683B;
-    color: #40c594;
+    border: solid 4px #a8871b;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -99,6 +99,7 @@ such that no text wraps
         flex-direction: row;
         justify-content: space-between;
     }
+
     .navbar ul {
         display: flex;
         justify-content: space-between;
@@ -106,15 +107,23 @@ such that no text wraps
 }
 
 /* Hamburger menu */
-.hamburger {
-    display: block; 
+    .hamburger {
+    display: none;
     cursor: pointer;
     font-size: 2rem;
     color: #f0ba32;
 }
 
 @media screen and (max-width: 60rem) {
+    .hamburger {
+        display: block;
+    }
+
     .navbar-links {
-        display: none; 
+        display: none;
+    }
+
+    .navbar-links.show {
+        display: block;
     }
 }

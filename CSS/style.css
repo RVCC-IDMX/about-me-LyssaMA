@@ -49,10 +49,21 @@ header {
     text-align: center;
 }
 
-#hero,
-footer {
-    border: 4px solid #27683B;
+#hero {
+    border: solid 4px #27683B;
+    border-radius: 8px;
     background-color: #a8871b;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+    align-items: center;
+    
+}
+
+footer {
+    border: 4px solid #a8871b ;
+    border-radius: 8px;
+    background-color: #27683B;
     color: #000000;
     text-align: center;
     padding: 10px;
@@ -64,6 +75,7 @@ footer {
     width: 275px;
     max-width: 100%;
     border: solid 4px #000000;
+    border-radius: 8px;
 }
 
 #hero p {
@@ -82,6 +94,7 @@ ul {
     text-align: center;
     background-color: #27683B;
     border: 4px solid #f0ba32;
+    border-radius: 8px;
     margin: 10px;
     padding: 20px;
     width: 50%;
@@ -129,6 +142,7 @@ ul {
         margin-left: 1rem;
         text-align: center;
         border: 4px solid;
+        border-radius: 8px;
     }
 
     figure img {
@@ -139,6 +153,7 @@ ul {
         filter: invert(1);
         color: #2d63f7;
         background-color: #ffffff;
+        border-radius: 10px;
         border-radius: 10px;
         outline: rgb(223, 74, 5);
     }
@@ -191,6 +206,8 @@ p a {
 
 #video iframe {
     max-width: 100%;
+    border: solid 4px #f0ba32;
+    border-radius: 8px;
 }
 
 #video p {
@@ -199,6 +216,7 @@ p a {
     background-color: #27683B;
     padding: 20px;
     border: 4px solid;
+    border-radius: 8px;
     margin-top: 20px;
 }
 
@@ -208,6 +226,14 @@ p a {
     background-color: #27683b;
     text-align: center;
     font-size: 28pt;
+}
+
+#gallery img {
+    width: 100%; 
+    height: auto;
+    border: 4px solid #f0ba32;
+    border-radius: 8px; 
+    transition: filter 0.3s ease-in-out;
 }
 
 /* Larger Screen Size */
@@ -243,6 +269,7 @@ p a {
     display: grid;
     row-gap: .5em;
     border: 4px #ffffff;
+    border-radius: 8px;
     padding: 10px;
     margin: 10px 0;
 }
@@ -254,11 +281,13 @@ p a {
     margin: 2rem auto;
     background-color: #a8871b;
     border: 4px solid #ffffff;
+    border-radius: 8px;
     padding: 20px;
 }
 
 fieldset {
     border: 4px solid;
+    border-radius: 8px;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -266,8 +295,11 @@ fieldset {
 legend {
     font-family: "Asap Condensed";
     background-color: #27683B;
+    border: 4px solid #ffffff;
     color: #000000;
     padding: .5em;
+    border-radius: 8px;
+    transition: filter 0.3s ease-in-out;
 }
 
 #contact input,
@@ -277,6 +309,7 @@ legend {
     padding: .5rem;
     font-size: 1rem;
     border: 4px #ffffff;
+    border-radius: 8px;
 }
 
 #contact ul {
@@ -294,6 +327,7 @@ legend {
     background-color: #27683B;
     color: #000000;
     border: 4px solid #ffffff;
+    border-radius: 8px;
     max-width: 400px;
     width: 50%;
     justify-self: center;

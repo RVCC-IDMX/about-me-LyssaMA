@@ -104,3 +104,21 @@ such that no text wraps
         justify-content: space-between;
     }
 }
+
+/* Hamburger menu */
+.hamburger {
+    display: none; 
+    cursor: pointer;
+    font-size: 2rem;
+    color: #f0ba32;
+}
+
+@media screen and (max-width: 60rem) {
+    .navbar-links {
+        display: none; 
+    }
+
+    .hamburger {
+        display: block; 
+    }
+}

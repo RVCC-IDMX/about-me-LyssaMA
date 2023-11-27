@@ -24,7 +24,7 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: #99138e;
+    background-color: #27683B;
     color: #40c594;
     display: flex;
     flex-direction: column;
@@ -41,14 +41,14 @@ main {
 }
 
 .logo img {
-    height: 8vw;
-    width: 8vw;
+    height: 10vw;
+    width: 10vw;
     padding-top: 10px;
     padding-left: 10px;
 }
 
 .logo h1 {
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 /* navigation list */
@@ -62,9 +62,9 @@ main {
 }
 
 .navbar-links a {
-    color: #280d88;
+    color: #f0ba32;
     font-size: 2 rem;
-    padding: 1rem 1.25rem;
+    padding: .5rem 1rem;
     text-decoration: none;
     display: inline-block;
 }
@@ -76,10 +76,10 @@ main {
 .navbar-links a:hover,
 .navbar-links a:focus {
     filter: invert(1);
-    color: #40c594;
-    background-color: #682727;
+    color: #2d63f7;
+    background-color: #ffffff;
     border-radius: 10px;
-    outline: #40c594;
+    outline: rgb(223, 74, 5);
 }
 
 /* 

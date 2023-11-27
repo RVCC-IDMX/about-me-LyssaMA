@@ -197,6 +197,9 @@ figcaption {
 p a {
     color: #27683B;
 }
+#website {
+    text-align: center;
+}
 
 /* Video Style */
 #video {

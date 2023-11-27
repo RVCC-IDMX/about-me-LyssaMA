@@ -16,18 +16,16 @@ h1 {
 }
 
 h2 {
-font-size: 36pt;
-text-align: center;
+    font-size: 36pt;
+    text-align: center;
 
 }
 
-#bio
-
-h2 {
- font-family: "Anton";
- font-size: 36pt;
- text-align: center;
- color: #280d88;
+#bio h2 {
+    font-family: "Anton";
+    font-size: 36pt;
+    text-align: center;
+    color: #280d88;
 }
 
 p {
@@ -133,6 +131,13 @@ ul {
         width: 100%;
     }
 
+    figure img:hover {
+        filter: invert(1);
+        color: #e6f512;
+        background-color: #27683b;
+        border-radius: 10px;
+        outline: rgb(22, 20, 20)
+    }
 
     /* Literature*/
 

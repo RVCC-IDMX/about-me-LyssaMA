@@ -56,13 +56,14 @@ footer {
     color: #000000;
     text-align: center;
     padding: 10px;
+    padding-top: 40px;
     align-items: center;
 }
 
 #hero img {
     width: 275px;
     max-width: 100%;
-    padding-top: 20px;
+    border: solid 4px #000000;
 }
 
 #hero p {
@@ -159,7 +160,6 @@ ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
-
     }
 
     hr {

@@ -88,7 +88,7 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-@media screen and (mid-width:60rem) {
+@media screen and (min-width:60rem) {
     .navbar-links {
         display: flex;
         flex-direction: row;
@@ -107,7 +107,7 @@ such that no text wraps
 
 /* Hamburger menu */
 .hamburger {
-    display: none; 
+    display: block; 
     cursor: pointer;
     font-size: 2rem;
     color: #f0ba32;
@@ -116,9 +116,5 @@ such that no text wraps
 @media screen and (max-width: 60rem) {
     .navbar-links {
         display: none; 
-    }
-
-    .hamburger {
-        display: block; 
     }
 }

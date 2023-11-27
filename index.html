@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <header>
         <nav class="navbar">
             <div class="hamburger">&#9776;</div>
@@ -40,8 +41,7 @@
         <!--Photo of me here-->
 
         <section id="hero">
-            <img src="img\Lyssa.jpg"
-                alt="pic of me">
+            <img src="img\Lyssa.jpg" alt="pic of me">
 
             <p>Lyssa Anderson</p>
             <p>Washington D.C.</p>
@@ -149,7 +149,7 @@
         <section id="contact">
             <h2>Contact Us:</h2>
             <form id="contactForm" name="contactForm" method="post" data-netlify="true">
-             
+
                 <fieldset>
 
                     <legend>Contact Form</legend>
@@ -222,3 +222,17 @@
         ©2023 - Lyssa Anderson
 
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburger = document.querySelector('.hamburger');
+            const navbarLinks = document.querySelector('.navbar-links');
+
+            hamburger.addEventListener('click', function () {
+                navbarLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+
+</html>

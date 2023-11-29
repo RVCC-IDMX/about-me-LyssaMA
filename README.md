@@ -5,7 +5,7 @@ Lyssa Anderson
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f5869d01-dff3-457a-8526-5aa98b28a0ec/deploy-status)](https://app.netlify.com/sites/aboutme-lyssama/deploys)
 
 <!-- Site Description-->
-
+The purpose of this website is to show the skills I have acquired in Web Development I. This is a website I have worked on over the past 3 months, learning and applying a number of skills while sharing a bit about who I am in the process.
 # Logo
 I will be using this in a lot of sites I build since most will have some sort of representation for the business it coincides with. I learned how to import an image by dropping it into an img folder, how to copy the relative path so it appears correclty, how to name it appropriately, and adjust the position and size which was definetly helpful.
 # Navigation bar
@@ -28,27 +28,17 @@ This was pretty fun to work on and I am happy to have this knowledge! I learned 
 Every site should have a footer so the public knows where the information is coming from. I learned how to add the copyright symbol and add a hyperink as well as target this section specifically to apply style. 
 
 <!--Color Scheme-->
+# Color Scheme
+Title colors `#ffffff`
 
-Titles 
+Body Text `#a8871b`
 
-Body Text
-
-Background
-
+Background '#27683B'
 
 <!--Citation-->
-
-# Logo, 
-# Images, 
-# Video 
-content owned by my company True Poet LLC
-
 # Blog 
 
-
 <!--License-->
-
-Logo
-
-Images
+# Licenses
+ Logo, Images, Video content owned by my company True Poet LLC
 

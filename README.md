@@ -34,12 +34,16 @@ Title colors `#ffffff`
 
 Body Text `#a8871b`
 
+Main Background `#000000`
+
 Background `#27683B`
+
+Borders `#a8871b`
 
 <!--Citation-->
 # Blog 
 
 <!--License-->
 # Licenses
- Logo, Images, Video content owned by my company True Poet LLC
+ Logo, Images, Video content owned by True Poet LLC
 

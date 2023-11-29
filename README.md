@@ -5,6 +5,7 @@ Lyssa Anderson
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f5869d01-dff3-457a-8526-5aa98b28a0ec/deploy-status)](https://app.netlify.com/sites/aboutme-lyssama/deploys)
 
 <!-- Site Description-->
+# Site Description
 The purpose of this website is to show the skills I have acquired in Web Development I. This is a website I have worked on over the past 3 months, learning and applying a number of skills while sharing a bit about who I am in the process.
 # Logo
 I will be using this in a lot of sites I build since most will have some sort of representation for the business it coincides with. I learned how to import an image by dropping it into an img folder, how to copy the relative path so it appears correclty, how to name it appropriately, and adjust the position and size which was definetly helpful.
@@ -33,7 +34,7 @@ Title colors `#ffffff`
 
 Body Text `#a8871b`
 
-Background '#27683B'
+Background `#27683B`
 
 <!--Citation-->
 # Blog 

@@ -30,15 +30,15 @@ Every site should have a footer so the public knows where the information is com
 
 <!--Color Scheme-->
 # Color Scheme
-Title colors `#ffffff`
+Title colors: HEX `#ffffff` RGB:
 
-Body Text `#a8871b`
+Body Text: HEX `#a8871b` RGB:
 
-Main Background `#000000`
+Main Background: HEX `#000000` RGB:
 
-Background `#27683B`
+Background: HEX`#27683B` RGB:
 
-Borders `#a8871b`
+Borders: HEX`#a8871b` RGB:
 
 <!--Citation-->
 # Blog 

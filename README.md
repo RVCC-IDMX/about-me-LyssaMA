@@ -45,5 +45,5 @@ Borders `#a8871b`
 
 <!--License-->
 # Licenses
- Logo, Images, Video content owned by True Poet LLC
+ Logo, Images, Video content owned by True Poet LLC which I reserve all copyrights.
 

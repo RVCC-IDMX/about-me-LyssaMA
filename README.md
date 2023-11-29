@@ -23,13 +23,13 @@ Adding a website URL was a great skill because sharing a hyperlink leading to an
 # Video
 In this section I learned how to embed a video from YouTube by making sure to copy the correct path using the embed code to copy and paste into my code. This copied the iframe and URL so that the video appears in my website. I will definitely use this skill, it's great for showing examples or showcasing work.
 # Contact
-This was pretty fun to work on and I am happy to have this knowledge! I learned to create a contact form that accepts people's in
+This was pretty fun to work on and I am happy to have this knowledge! I learned to create a contact form that accepts people's information and gives them an option if they want a reply message or not. This was done with adding a legend, labels, input types and a button type to send the message. I was able to link it to Netlify to check if it was working correctly. I got to play around with styling, adding outlines to certain portions, and learned the correct form of labels aligning on th left side of the contact form. This was fun to style and get the borders around the sections to make it more visually appealing.
 # Footer
-
+Every site should have a footer so the public knows where the information is coming from. I learned how to add the copyright symbol and add a hyperink as well as target this section specifically to apply style. 
 
 <!--Color Scheme-->
 
-Titles
+Titles 
 
 Body Text
 

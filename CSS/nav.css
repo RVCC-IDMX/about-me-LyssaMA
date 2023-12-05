@@ -38,6 +38,8 @@ main {
 .logo {
     display: flex;
     align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo img {
@@ -107,11 +109,14 @@ such that no text wraps
 }
 
 /* Hamburger menu */
-    .hamburger {
+.hamburger {
     display: none;
     cursor: pointer;
     font-size: 2rem;
     color: #f0ba32;
+    position: fixed;
+    top: 10px;
+    right: 10px;
 }
 
 @media screen and (max-width: 60rem) {

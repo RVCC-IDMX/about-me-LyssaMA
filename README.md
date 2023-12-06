@@ -41,7 +41,9 @@ Background: HEX`#27683B` RGB: 39, 104, 59
 <!--Citation-->
 # Blog 
 https://www.sitepoint.com/dynamic-web-experiences-interactive-svg-animations/
+
 https://createsvg.com/create-animated-svg-image/
+
 https://geekflare.com/create-animated-svg/
 <!--License-->
 # Licenses

@@ -53,5 +53,10 @@ https://createsvg.com/create-animated-svg-image/
 https://geekflare.com/create-animated-svg/
 <!--License-->
 # Licenses
- Logo, Images, Video content owned by True Poet LLC which I reserve all copyrights.
+ Logo, Images, Video:
+ Owned by True Poet LLC which reserves all copyrights. 
+
+ Code:
+ CC0 1.0 Universal
+ CC0: This work has been marked as dedicated to the public domain.
 

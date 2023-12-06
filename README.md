@@ -38,6 +38,10 @@ Main Background: HEX `#000000` RGB: 0, 0, 0
 
 Background: HEX`#27683B` RGB: 39, 104, 59
 
+Hobbies Border: HEX#`#f0ba32` RGB: 240, 186, 50
+
+![About Me Color Scheme](https://github.com/RVCC-IDMX/about-me-LyssaMA/assets/143833893/4e28bebe-2412-4ae4-89b1-28880ba152f0)
+
 <!--Citation-->
 # Blog 
 https://www.sitepoint.com/dynamic-web-experiences-interactive-svg-animations/

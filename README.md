@@ -44,6 +44,7 @@ Hobbies Border: HEX#`#f0ba32` RGB: 240, 186, 50
 
 <!--Citation-->
 # Blog 
+Researched from the following websites:
 https://www.sitepoint.com/dynamic-web-experiences-interactive-svg-animations/
 
 https://createsvg.com/create-animated-svg-image/

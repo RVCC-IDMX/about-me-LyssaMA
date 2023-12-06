@@ -211,7 +211,10 @@ p a {
     justify-content: center;
     color: #a8871b;
     background-color: #ffffff;
-    border: solid 4px #f0ba32;
+}
+
+#clothing figure img {
+    width: 100%
 }
 
 #clothing figcaption {
